@@ -5,10 +5,9 @@ function trocarNome() {
     const nomeDigitado = prompt('Insira seu nome')
     if (nomeDigitado == ''){
         nome.textContent = 'NÃO IDENTIFICADO'
-        break
     }else{
         nome.textContent = nomeDigitado
-
+        
     }
 }
 
